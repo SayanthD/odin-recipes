@@ -1,0 +1,28 @@
+img {
+    border: 5px solid red
+}
+
+.header {
+    font-size: 45px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.sub-header {
+    background-color: lightblue;
+    text-decoration: underline;
+}
+
+.sub-ingredients {
+    background-color: lightpink;
+    text-decoration: underline;
+}
+
+.short {
+    background-color: lightgreen;
+}
+
+li> a:hover {
+    background-color: yellow;
+}
