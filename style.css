@@ -23,6 +23,29 @@ img {
     background-color: lightgreen;
 }
 
-li> a:hover {
-    background-color: yellow;
+li.recipe-item > a:hover {
+    background-color: lightgray;
+}
+
+ul > li.recipe-item {
+    display: flex;
+    padding: 32px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+}
+
+li.recipe-item {
+    background-color: lightblue;  
+    opacity: 70%;
+    transition: 0.2s;
+    transition-duration: 250ms;
+}
+
+li.recipe-item:hover {
+    background-color: lightblue;
+    opacity: 1;
+    transform: translateX(-10px);
+    
 }
